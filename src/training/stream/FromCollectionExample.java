@@ -1,11 +1,10 @@
 package training.stream;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
-public class MapAndReduceExample {
+public class FromCollectionExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,12 +13,10 @@ public class MapAndReduceExample {
 			new Student("신용권", 20),
 			new Student("유미선", 30)
 		);
-				
-		double avg = studentList.stream()
-				.mapToInt(Student :: getScore)
-				.average()
-				.getAsDouble();
-		System.out.println(String.format("평균 점수: %s", avg));
+		
+		Stream<Student> stream = studentList.stream();
+		stream.forEach(s -> System.out.println(s.getName()));
+		
 	}
 
 }
