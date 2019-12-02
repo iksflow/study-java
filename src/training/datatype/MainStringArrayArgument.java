@@ -1,4 +1,4 @@
-package datatype;
+package training.datatype;
 
 public class MainStringArrayArgument {
 
