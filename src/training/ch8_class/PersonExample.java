@@ -9,7 +9,7 @@ public class PersonExample {
 		System.out.println(p1.nation);
 		System.out.println(p1.ssn);
 		System.out.println(p1.name);
-		
+		Integer.parseInt("0");
 //		p1.nation = "Japan"; finalÀº ¼öÁ¤ ºÒ°¡
 		p1.name = "±è´ö¹è";
 	}
