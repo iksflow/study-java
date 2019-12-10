@@ -1,4 +1,4 @@
-package training.ch8_class;
+package training.ch6_class;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
