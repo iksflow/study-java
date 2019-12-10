@@ -1,4 +1,4 @@
-package training.ch8_class;
+package training.ch6_class;
 @AnnotationName(elem1 = "ABC",elem2 = 0)
 public class AnnoClassTest {
 	@AnnotationName(elem2 = 0)

@@ -1,4 +1,4 @@
-package training.ch8_class;
+package training.ch6_class;
 
 public class Singleton {
 	private static Singleton singleton = new Singleton();

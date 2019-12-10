@@ -1,4 +1,4 @@
-package training.ch8_class;
+package training.ch6_class;
 
 public class Car {
 	String company = "현대자동차";
