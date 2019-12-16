@@ -1,4 +1,4 @@
-package training;
+package training.thread;
 
 public class TargetThread extends Thread{
 	public void run() {
