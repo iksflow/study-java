@@ -1,4 +1,4 @@
-package training;
+package training.thread;
 
 public class DiffOfStartAndRunExample {
 
@@ -10,5 +10,4 @@ public class DiffOfStartAndRunExample {
 		thread1.start();
 		thread1.run();
 	}
-
 }

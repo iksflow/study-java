@@ -1,4 +1,4 @@
-package training;
+package training.thread;
 
 public class RunnableExam implements Runnable{
 	public void run() {
