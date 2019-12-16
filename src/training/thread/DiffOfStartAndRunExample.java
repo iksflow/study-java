@@ -10,5 +10,4 @@ public class DiffOfStartAndRunExample {
 		thread1.start();
 		thread1.run();
 	}
-
 }
