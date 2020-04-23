@@ -1,5 +1,8 @@
 package training.regex;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -18,6 +21,14 @@ public class RegexExample1 {
 		System.out.println(isInputValid("¹Ú»ç¶÷", "^¹Ú(?!»ç¶÷)([°¡-ÆR]{1,})$"));
 		// Æ¯Á¤¹®ÀÚ ¿©·¯°³ Á¦¿ÜÇÏ±â (¹Ú»ç¶÷, ¹ÚÃµÀç)
 		System.out.println(isInputValid("¹Ú»ç¶÷", "^¹Ú([?!»ç¶÷|ÃµÀç]{2})([°¡-ÆR]{1,})$"));
+		System.out.println(Arrays.asList("".split("\\|")).isEmpty());
+		int[] a = {};
+		List<String> list = new ArrayList<>();
+//		List<String> list2 = new ArrayList<>(Arrays.asList(a).isEmpty());
+		System.out.println(Arrays.asList(a).getClass());
+		System.out.println(list.getClass());
+//		System.out.println(list.isEmpty());
+		
 	}
 	
 	public static boolean isInputValid(String input, String regex) {
