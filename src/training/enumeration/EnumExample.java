@@ -6,5 +6,6 @@ public class EnumExample {
 		System.out.println(ColorCode.GREEN.ordinal());
 		System.out.println(ColorCode.GREEN.name());
 		System.out.println(ColorCode.GREEN.getColorCode());
+		System.out.println(TrueFalse.TRUE);
 	}
 }
