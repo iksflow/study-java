@@ -12,6 +12,7 @@ public class EnumExample {
 		System.out.println(ColorCode.GREEN.ordinal());
 		System.out.println(ColorCode.GREEN.name());
 		System.out.println(ColorCode.GREEN.getColorCode());
+
 		Map<String, String> map = new HashMap<>();
 		map.put("001", "1");
 		map.put("002", "2");
@@ -21,5 +22,6 @@ public class EnumExample {
 			System.out.println("Value::" + key.getValue());
 		}
 		System.out.println(LocalDate.now().format(DateTimeFormatter.BASIC_ISO_DATE));
+
 	}
 }
