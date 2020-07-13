@@ -17,8 +17,6 @@ public class SortClassArrayExample {
             System.out.println(emp);
         }
 
-        
-
         System.out.println("나이 기준 오름차순으로 정렬");
         Collections.sort(list);
         for (Employee emp : list) {
